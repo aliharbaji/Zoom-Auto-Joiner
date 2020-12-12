@@ -35,6 +35,10 @@ after downloading the script from github, open up the "Daily Program" folder, go
 
 Add the Starting Time of your meeting > Ending Time of your meeting > your Meeting's ID > your Meeting's Password
 
+Starting and Ending time MUST be in 24hr format (check the provided "example.xlsx" file)
+
+*Check the given example excel file if needed*
+
 P.S: 
 
 If a specific meeting doesn't have a password,leave the password cell empty.
