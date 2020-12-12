@@ -82,9 +82,9 @@ py -m pip install time
 
 ```
 ## 🏃‍♂️ Running the program
-In order to finally run the program, all you have to do is run the "main.py" file, and in order to access this file go to the project's folder:
+In order to finally run the program, all you have to do is run the "main.py" file, and in order to access this file go to the project's folder then double click the "main.py" file:
 
-> \Auto-Zoom-Meeting-Joiner\main.py
+> \Zoom-Auto-Joiner\main.py
 
 
 Whenever you want to join your classes, run the "main.py" file and you'll be good to go.
