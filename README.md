@@ -30,6 +30,7 @@ Last but not least, go to > Settings > Keyboard Shortcuts > Scroll down until yo
 #### ➡️ Changes performed in the provided Excel files :
 
 This is the most important change you are going to perform, and you will see why in a bit:
+
 after downloading the script from github, open up the "Daily Program" folder, go to the Monday file and add your Zoom meeting information accordingly (same with all the other days of the week).
 
 Add the Starting Time of your meeting > Ending Time of your meeting > your Meeting's ID > your Meeting's Password
