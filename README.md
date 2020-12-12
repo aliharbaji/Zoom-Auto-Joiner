@@ -1,4 +1,4 @@
-# Auto-Zoom-Joiner
+# Zoom-Auto-Joiner
 
 
 Automatically join and leave Zoom meetings. 
