@@ -85,6 +85,14 @@ py -m pip install datetime
 py -m pip install time
 
 ```
+You might get an error like so in your CMD terminal:
+
+>*ERROR: Could not find a version that satisfies the requirement webbrowser (from versions: none)*
+
+>*ERROR: No matching distribution found for webbrowser*
+
+If so... don't panic, it simply means that you have the library already installed.
+
 ## 🏃‍♂️ Running the program
 In order to finally run the program, all you have to do is run the "main.py" file, and in order to access this file go to the project's folder then double click the "main.py" file:
 
