@@ -88,7 +88,7 @@ py -m pip install time
 You might get an error like so in your CMD terminal:
 
 >*ERROR: Could not find a version that satisfies the requirement webbrowser (from versions: none)*
-
+>
 >*ERROR: No matching distribution found for webbrowser*
 
 If so... don't panic, it simply means that you have the library already installed.
