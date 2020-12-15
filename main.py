@@ -144,8 +144,7 @@ while on:
 
         if not isStarted:
 
-            if hour == int(week[weekday][i][0].split(":")[0]) and minute + t / 60 >= int(
-                    week[weekday][i][0].split(":")[1]) and week[weekday][i][4] == "0":
+            if hour == int(week[weekday][i][0].split(":")[0]) and minute + t / 60 >= int(week[weekday][i][0].split(":")[1]) and week[weekday][i][4] == "0":
                 webbrowser.open("https://edu-il.zoom.us/j/" + week[weekday][i][2])  # opens the Zoom link
                 sleep(10)  # waits 10 seconds and let's the Zoom window load
                 pyautogui.typewrite(week[weekday][i][3])  # types meeting's password
@@ -165,9 +164,7 @@ while on:
                 isStarted = False  # tells the program that you left the class so it begins to check whether it is
                 # time to join another one or not
 
-        if week[weekday][len(week[weekday]) - 1][4] == "1" or hour > int(
-                week[weekday][len(week[weekday]) - 1][1].split(":")[
-                    0]):  # checks if the program already joined the last class
+        if week[weekday][len(week[weekday]) - 1][4] == "1" or hour > int(week[weekday][len(week[weekday]) - 1][1].split(":")[0]) or (hour == int(week[weekday][len(week[weekday]) - 1][1].split(":")[0]) and minute >= int(week[weekday][len(week[weekday]) - 1][1].split(":")[1])):  # checks if the program already joined the last class
             # or the class is over
 
             print("The program finished joining all the classes, Goodbye!")
