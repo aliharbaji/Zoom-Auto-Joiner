@@ -68,23 +68,12 @@ Used libraries:
 * [datetime](https://docs.python.org/3/library/datetime.html)
 * [time](https://docs.python.org/3/library/time.html?highlight=time#module-time)
 
-You can either install these libraries from their official websites or you can use pip to install them.
+
 
 #### 📥 Using "pip install"
 
--Click Win + R
+>pip install -r requirements.txt
 
--Type CMD in the pop-up window
-
--Run the following lines in your CMD terminal: (each line at a time)
-```sh
-py -m pip install webbrowser
-py -m pip install openpyxl
-py -m pip install pyautogui
-py -m pip install datetime
-py -m pip install time
-
-```
 You might get an error like so in your CMD terminal:
 
 >*ERROR: Could not find a version that satisfies the requirement webbrowser (from versions: none)*
