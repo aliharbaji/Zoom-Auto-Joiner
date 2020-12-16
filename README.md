@@ -44,7 +44,7 @@ P.S:
 If a specific meeting doesn't have a password,leave the password cell empty.
 
 
-### 💻 Requirments:
+### 💻 Requirements:
 And this is a very important step.
 
 #### 🌐General Requirments
