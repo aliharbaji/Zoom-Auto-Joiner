@@ -73,7 +73,9 @@ Used libraries:
 #### 📥 Using "pip install"
 
 >py -m pip install -r requirements.txt (in cmd)
+>
 >OR
+>
 >pip install -r requirements.txt (in python terminal)
 
 
@@ -85,10 +87,15 @@ You might get an error like so in your CMD terminal:
 
 If so...do the following, write each line in your cmd respectively:
 >py -m pip install webbrowser
+>
 >py -m pip install openpyxl
+>
 >py -m pip install pyautogui
+>
 >py -m pip install datetime
+>
 >py -m pip install time
+
 
 ## 🏃‍♂️ Running the program
 In order to finally run the program, all you have to do is run the "main.py" file, and in order to access this file go to the project's folder then double click the "main.py" file:
