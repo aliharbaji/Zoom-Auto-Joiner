@@ -16,7 +16,7 @@ except ModuleNotFoundError as err:
     input()
     exit()
 
-t = 5  # sleep time (minutes) this helps the program rest for a couple minutes.
+t = 1  # sleep time (minutes) this helps the program rest for a couple minutes.
 t = t * 60
 
 #   *** gathering data from data sheet *** checks if the information written in the excel files are legit or not
