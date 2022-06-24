@@ -1,9 +1,3 @@
-import webbrowser
-from datetime import datetime
-from time import sleep
-import pyautogui
-import openpyxl
-
 try:
     import pyautogui
     import webbrowser
@@ -15,6 +9,13 @@ except ModuleNotFoundError as err:
     print("libraries not installed, please go through the README file, press enter to exit")
     input()
     exit()
+    
+import webbrowser
+from datetime import datetime
+from time import sleep
+import pyautogui
+import openpyxl
+
 
 t = 1  # sleep time (minutes) this helps the program rest for a couple minutes.
 t = t * 60
