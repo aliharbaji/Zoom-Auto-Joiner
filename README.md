@@ -41,7 +41,7 @@ Starting and Ending time MUST be in 24hr format (check the provided "example.xls
 
 P.S: 
 
-If a specific meeting doesn't have a password,leave the password cell empty.
+If a specific meeting doesn't have a password, leave the password cell empty.
 
 
 ### 💻 Requirements:
